@@ -1,7 +1,7 @@
 **The Bully Algorithm**
 =========================
 
-https://github.com/TheniL/bully/  
+https://github.com/TheNilesh/bully/  
 License: Public Domain, no warranty  
 Nilesh Akhade
 
