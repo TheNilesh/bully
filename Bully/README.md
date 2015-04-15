@@ -27,7 +27,7 @@ Create a process details file, say procList.txt
 In above file, first column is unique PID, second is Image Name, third is site URL(site:port)
 
 ```
-	java procList.txt 2
+	java Bully procList.txt 2
 ```
 
 Here procList.txt is the name of file having list of processes, and 2 is index of current process details into list of processes.
