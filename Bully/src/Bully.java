@@ -175,7 +175,11 @@ public class Bully implements Runnable {
 	}
 	
 	public static void main(String args[]) throws Exception{
-		//Syntax : java Bully <FilePath> <myIndex>
+		if(args.length<2){
+			System.out.println("Syntax : java Bully <ProcessList.txt> <Index>");
+			return;
+		}
+		
 		Bully b=new Bully(args[0],Integer.parseInt(args[1]));
 		new CommandListener(b);
 	}
