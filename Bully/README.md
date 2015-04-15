@@ -32,6 +32,9 @@ In above file, first column is unique PID, second is Image Name, third is site U
 
 Here procList.txt is the name of file having list of processes, and 2 is index of current process details into list of processes.
 
+When process wants to enter a critical section in shared memory, it must request to the coordinator. Using command `CRTC` user can initiate request,
+which then initiates election process if coordinator is down. 
+
 Algorithm
 ============================
 Adapted from Distributed Operating Systems, by Pradeep K. Sinha
