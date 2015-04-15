@@ -30,7 +30,6 @@ public class Bully implements Runnable {
 	
 	void loadFromFile(String fileName,int myIndex) throws FileNotFoundException,IOException{
 		BufferedReader br=new BufferedReader(new FileReader(fileName));
-		Boolean first=true;
 		String line;
 		String[] parts;
 		int i=0;
